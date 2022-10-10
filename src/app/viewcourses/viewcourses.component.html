@@ -1,0 +1,34 @@
+<app-navbar></app-navbar>
+
+<div class="container">
+    <div class="row">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 xxl-12">
+           
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Course Title</th>
+                    <th scope="col">Course Duration</th>
+                    <th scope="col">Course Description</th>
+                    <th scope="col">Course Date</tr>
+                        <th scope="col">Course Venue</tr>
+
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let i of coursedData">
+                    <th scope="row">1</th>
+                    <td>{{i.courseTitle}}</td>
+                    <td>{{i.courseDuration}}</td>
+                    <td>{{i.courseDescription}}</td>
+                    <td>{{i.courseDate}}</td>
+                    <td>{{i.courseVenue}}</td>
+                  </tr>
+                 
+                </tbody>
+              </table>
+              </div>
+              </div>
+              </div>
+              
+              
